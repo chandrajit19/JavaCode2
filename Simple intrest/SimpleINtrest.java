@@ -1,0 +1,11 @@
+// Wrote a java program to find simple intrest, if p=10000, t=2 years, r=2.6 p/y ??
+class SimpleINtrest
+{
+	public static void main(String args[])
+	{
+       int p=10000, t=2;
+	   float r=2.6f;
+	  double s=(p*t*r)/100;
+	  System.out.println("Simple intrest is = " +s);
+	}
+}

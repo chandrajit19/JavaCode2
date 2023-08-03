@@ -1,0 +1,28 @@
+class Simple 
+{
+	public static void main(String[] args) 
+	{
+		
+		int a=19;
+		int b=21;
+		int x;
+		x=a;
+        a=b;
+		b=x;
+
+		System.out.println("new value a " +a);
+		System.out.println("new value b " +b);
+		
+		/* int p=10000;
+		int t=2;
+		double r=2.6;
+		double d=(p*t*r)/100;
+
+		System.out.println("simpe inetrest = " +d);   
+
+		double a=12.978;
+		double b=33.21213;
+		double d=(a*b)/2;
+        System.out.println("area of traingle is = " +d); */
+	}
+}

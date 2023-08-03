@@ -1,0 +1,25 @@
+import java.util.*;
+class Armstrong
+{
+	public static void main(String[] args) 
+	{   Scanner s=new Scanner(System.in);
+		System.out.println("Please Enter the number = ");
+		int i=s.nextInt();
+		int sum=0;
+		int rev=0;
+		for(int ori=i; ori>0; )
+		{
+			rev=ori%10;
+			ori=ori/10;
+			sum=sum+(rev*rev*rev);
+		}
+		if(sum==i)
+		{
+			System.out.println(i +" is an armstrong no ");
+		}
+		else
+		{
+           System.out.println(i +" is not an armstrong no ");
+		}
+	}
+}

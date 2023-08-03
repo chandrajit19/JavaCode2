@@ -1,0 +1,34 @@
+// traingle printing
+
+class SimplePattern 
+{
+	public static void main(String[] args) 
+	{   
+		String s="*";
+		int j=1;
+		int i=1;
+		for( i=1;  i<=11; i++)
+		{  
+			if(i<=6)
+			{
+          for( j=1;  j<=6-i; j++) 
+			{
+		       System.out.print(s +"  ");
+			}
+			System.out.println();
+			}
+          
+		  if(i>=7)
+			{
+            for(int k=1;  k<=i-6; k++) 
+			{
+		       System.out.print(s +"  ");
+			}
+			System.out.println();
+
+			}
+		}
+	}   
+}
+        
+	

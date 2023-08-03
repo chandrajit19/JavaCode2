@@ -1,0 +1,15 @@
+class ArrayApp 
+{
+	public static void main(String[] args) 
+	{
+		int a[]={2,5,-3,8,9};
+		int count=0;
+		System.out.println("elements are given in the array = ");
+		for(int x : a)
+		{   System.out.print(x+ ", ");
+			count++;
+		}
+		System.out.println();
+          System.out.println("Number of elements present in array = " +count);
+	}
+}
